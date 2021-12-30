@@ -52,6 +52,10 @@
       ],
       "default": "published",
       "required": true
+    },
+    "best_sellers": {
+      "via": "products",
+      "collection": "best-seller"
     }
   }
 }

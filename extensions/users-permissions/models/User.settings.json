@@ -64,6 +64,10 @@
     },
     "address": {
       "type": "string"
+    },
+    "orders": {
+      "via": "users_permissions_users",
+      "collection": "order"
     }
   }
 }
